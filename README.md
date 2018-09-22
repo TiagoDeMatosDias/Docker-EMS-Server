@@ -2,13 +2,13 @@
 
 A quick and easy way to get a TIBCO EMS Server (version 8.4) up and running inside a Docker container. Great for development work!
 
-##**Requirements:**
+## Requirements:
 
 1 - A valid license for TIBCO EMS, you may acquire it from TIBCO directly.
 2 - Docker installed on a Unix based system (or the ability to run bash scripts on a windows based system that has docker installed)
 
 
-##**Step by step:**
+## Step by step:
 
 1 - Download the latest commit for this project onto the machine and location you wish to run it.
 2 - Go to [TIBCO eDelivery](https://edelivery.tibco.com) and Download your preferred version of EMS. This project was designed for version 8.4, if you wish to use a different version see below.
@@ -18,14 +18,14 @@ A quick and easy way to get a TIBCO EMS Server (version 8.4) up and running insi
 The container is now running as normal. You may stop it at anytime by using the standard docker stop command.
 
 
-##**Running the server:**
+## Running the server:
 
 If the container stops for any reason after it has been built, you don't need to build it again. Simply run the run.sh file whenever you need the server to come online.
 
 The container is now running as normal. You may stop it at anytime by using the standard docker stop command.
 
 
-##**Using different versions:**
+## Using different versions:
 
 This project was designed for version 8.4 of TIBCO EMS, if you wish to use a different version you will need to change the second line of the Startup.sh file so that the correct version is used.
 
@@ -38,7 +38,7 @@ if you wish to use version 8.3, replace that line with:
 >cd /opt/tibco/ems/8.3/bin/
 
 
-##**Default Server Configurations:**
+## Default Server Configurations:
 
 You may configure the server to start with a number of predefined queues, topics, bridges, etc... Thereby avoiding the need to recreate those queues whenever the container is stopped.
 
