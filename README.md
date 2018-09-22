@@ -5,14 +5,18 @@ A quick and easy way to get a TIBCO EMS Server (version 8.4) up and running insi
 ## Requirements:
 
 1 - A valid license for TIBCO EMS, you may acquire it from TIBCO directly.
+
 2 - Docker installed on a Unix based system (or the ability to run bash scripts on a windows based system that has docker installed)
 
 
 ## Step by step:
 
 1 - Download the latest commit for this project onto the machine and location you wish to run it.
+
 2 - Go to [TIBCO eDelivery](https://edelivery.tibco.com) and Download your preferred version of EMS. This project was designed for version 8.4, if you wish to use a different version see below.
-3 - Paste the EMS folder you downloaded from TIBCO inside the project folder. Skip the silent file, and use the file provided by this GitHub project
+
+3 - Paste the EMS folder you downloaded from TIBCO inside the project folder. Skip the silent file, and use the file provided by this GitHub project.
+
 4 - Run the build.sh file
 
 The container is now running as normal. You may stop it at anytime by using the standard docker stop command.
