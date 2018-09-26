@@ -1,6 +1,6 @@
 # Docker EMS Server
 
-A quick and easy way to get a TIBCO EMS Server (version 8.4) up and running inside a Docker container. Great for development work!
+A quick and easy way to get a TIBCO EMS Server up and running inside a Docker container. Great for development work!
 
 ## Requirements:
 
